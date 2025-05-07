@@ -2,6 +2,7 @@ import { Image, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { LinearGradient } from 'expo-linear-gradient'
 import Profile from '../assets/Profile.jpg'
+import flareon2  from '../assets/flareon2.png'
 
 export default function StoriesComponent() {
   return (
@@ -24,10 +25,10 @@ export default function StoriesComponent() {
       <View style={styles.container} >
         <LinearGradient style={styles.linearGradient} colors={["#feda75", "#fede1e", "#d62976", "#962fbf", "#4f5bd5"]} >
           <View style={styles.imageWrapper} >
-            <Image source={Profile} style={styles.image} />
+            <Image source={flareon2} style={styles.image} />
           </View>
         </LinearGradient>
-        <Text style={styles.labelText} >Kase</Text>
+        <Text style={styles.labelText} >Flareon_Flood</Text>
       </View>
 
       <View style={styles.container} >
@@ -42,10 +43,10 @@ export default function StoriesComponent() {
       <View style={styles.container} >
         <LinearGradient style={styles.linearGradient} colors={["#feda75", "#fede1e", "#d62976", "#962fbf", "#4f5bd5"]} >
           <View style={styles.imageWrapper} >
-            <Image source={Profile} style={styles.image} />
+            <Image source={flareon2} style={styles.image} />
           </View>
         </LinearGradient>
-        <Text style={styles.labelText} >Kase</Text>
+        <Text style={styles.labelText} >Flareon_Flood</Text>
       </View>
 
       <View style={styles.container} >
